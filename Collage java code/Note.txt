@@ -1,0 +1,32 @@
+Using abstract methods and classes.
+Write a JAVA program for computing sum of two integers and floats using abstract classes?
+Implement the below diagram by using abstract class’s polymorphism and dynamic binding.
+How to read all elements in vector by using iterator?
+How to copy or clone a vector?
+How to add all elements of a list to vector?
+How to delete all elements from my vector?
+How to copy vector to array?
+How to delete all elements from my LinkedList?
+How to add all elements from my LinkedList?
+Design a class BookShop with the following details
+    private Vector bookshelf that will store only Book objects addBook(Book b) inserts a book to bookshelf addBook(Book b, int i) inserts book b at location i to bookshelf removeBook(Book b) removes a book from bookShelf removeBook(int i)  removes book I from bookshelf show() displays all books in the bookshelf sort() sorts all books according to the title
+
+Demonstrate equals() and equalsIgnoreCase().
+Demonstrate equals() vs ==.
+Demonstrates getChars( ):
+Demonstrate indexOf() and lastIndexOf().
+Construct one String from another.
+Illustrate sample program that sorts an array of strings. The program uses compareTo( ) method.
+Illustrate a  program that uses substring( ) to replace all instances of one substring with another within a string.
+Construct string from subset of char array.
+✓ Override toString() for Box class.
+Illustrate an example to implement user package.
+Write a JAVA program which illustrates the concept of access rules?
+Create a thread using extends.
+Demonstrate multiple thread.
+Write a JAVA program to find the threads which are running internally and print priority values.
+Write a thread program which displays 1 to 10 numbers after each and every 1 second.
+Write a thread program which displays 1 to 10 numbers after each and every 1 second
+using runnable interface.
+Write a JAVA program which produces 1 to 10 numbers in which even numbers are produced by one thread and odd numbers are produced by another thread.
+Write an example that creates a new thread and starts it running: Create a second thread.
