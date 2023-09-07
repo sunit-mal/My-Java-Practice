@@ -8,12 +8,14 @@ import java.util.Scanner;
 public class PasswordMatch {
     public static void main(String[] args) {
         String StringType = "^(?=.*[A-Z0-9])[a-zA-Z0-9]{8,10}$";
+        // String StringType2 = "^(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{8,}$";
         Scanner sc = new Scanner(System.in);
 
         String Password = sc.nextLine();
         sc.close();
 
         System.out.println(Pattern.matches(StringType,Password));
+        // System.out.println(Pattern.matches(StringType2,Password));
     
     }
 }
