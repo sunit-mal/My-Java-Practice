@@ -49,6 +49,6 @@ class one {
 /*
  * Note:
  *      Here I am override equals and toString method from object class.
- *      with out those override equal method only check those two object are same or not its check object hashcode not the inner value
+ *      with out those override equal method only check those two object are same or not its check object hashCode not the inner value
  *      and toString return hash Value not the contain value. By overriding I will change the working process of those 2 method.
  */
