@@ -48,7 +48,9 @@ class one {
 
     @Override
     public boolean equals(Object obj) {
-        boolean temp = ((one) obj).getName().equals(this.name);
+        one that = (one) obj;
+        boolean temp = (that.name).equals(this.name);
+        
         return temp;
     }
 
