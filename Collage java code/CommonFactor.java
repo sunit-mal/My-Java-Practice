@@ -6,6 +6,7 @@ public class CommonFactor {
         System.out.print(">> ");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        sc.close();
         int c = (a > b) ? b : a;
         int k = 0;
         for (int i = 1; i < c; i++) {

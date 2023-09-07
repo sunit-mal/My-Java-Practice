@@ -11,7 +11,7 @@ class Hacker {
 
 public class InstanceOfKeyword {
 
-   static String count(ArrayList list) {
+   static String count(ArrayList<Object> list) {
       int a = 0, b = 0, c = 0;
       for (int i = 0; i < list.size(); i++) {
          Object element = list.get(i);
@@ -27,7 +27,7 @@ public class InstanceOfKeyword {
    }
 
    public static void main(String[] args) {
-      ArrayList list = new ArrayList();
+      ArrayList<Object> list = new ArrayList<>();
       Scanner sc = new Scanner(System.in);
       int t = sc.nextInt();
       for (int i = 0; i < t; i++) {
@@ -40,5 +40,12 @@ public class InstanceOfKeyword {
             list.add(new Hacker());
       }
       System.out.println(count(list));
+      sc.close();
    }
 }
+
+// Input :
+/*
+6
+Student Student Student Rockstar Hacker Hacker 
+ */

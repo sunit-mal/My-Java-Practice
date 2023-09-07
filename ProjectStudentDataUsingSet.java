@@ -28,27 +28,26 @@ class student implements Comparable<student>{
         this.name = name;
         this.roll = roll;
     }
+
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return "name :"+name+"\tRoll :"+roll;
     }
+
     @Override
     public boolean equals(Object obj) {
-        // TODO Auto-generated method stub
         student that =(student) obj;
         boolean isEqual = that.roll == this.roll;
         return isEqual;
     }
+
     @Override
     public int hashCode() {
-        // TODO Auto-generated method stub
         return roll;
     }
 
     @Override
     public int compareTo(student that) {
-        // TODO Auto-generated method stub
         return this.name.compareTo(that.name);
     }
 }

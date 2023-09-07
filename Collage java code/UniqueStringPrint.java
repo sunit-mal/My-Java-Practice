@@ -15,5 +15,6 @@ public class UniqueStringPrint {
         for (Character character : set) {
             System.out.print(character);
         }
+        sc.close();
     }
 }

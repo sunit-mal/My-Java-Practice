@@ -11,6 +11,7 @@ public class MaventicQ2 {
             System.out.println(i);
         } else
             System.out.println(0);
+        sc.close();
     }
 
     public static Boolean checkPrime(int num) {

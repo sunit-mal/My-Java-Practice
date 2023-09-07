@@ -6,6 +6,9 @@ public class ObjectClassOverride {
         System.out.println(obj1.equals(obj2));
         System.out.println(obj1.toString());
 
+        System.out.println(obj1.hashCode());
+        System.out.println(obj1.compareTo(obj2));
+        
         // Object Cloning
         CloningClass ccobj = new CloningClass();
         ccobj.Name = "Main Clone";
@@ -21,11 +24,11 @@ public class ObjectClassOverride {
     }
 }
 
-class one {
+class one implements Comparable<one> {
     private String name;
-    private long num;
+    private int num;
 
-    one(String name, long num) {
+    one(String name, int num) {
         this.name = name;
         this.num = num;
     }
@@ -38,11 +41,11 @@ class one {
         this.name = name;
     }
 
-    public long getNum() {
+    public int getNum() {
         return num;
     }
 
-    public void setNum(long num) {
+    public void setNum(int num) {
         this.num = num;
     }
 
@@ -50,7 +53,7 @@ class one {
     public boolean equals(Object obj) {
         one that = (one) obj;
         boolean temp = (that.name).equals(this.name);
-        
+
         return temp;
     }
 
@@ -58,6 +61,17 @@ class one {
     public String toString() {
         String result = this.name + " " + this.num;
         return result;
+    }
+
+    
+    @Override
+    public int hashCode() {
+        return this.num;
+    }
+
+    @Override
+    public int compareTo(one that) {
+        return this.name.compareTo(that.name);
     }
 
 }
@@ -77,6 +91,6 @@ class CloningClass implements Cloneable {
  * with out those override equal method only check those two object are same or
  * not its check object hashCode not the inner value
  * and toString return hash Value not the contain value. By overriding I will
- * change the working process of those 2 method.
+ * change the working process of those 2 method.In hash Code and compare to also same as toString and equals.
  * And In cloning in necessary to override clone method.
  */
