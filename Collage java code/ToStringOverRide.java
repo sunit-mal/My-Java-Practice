@@ -1,7 +1,7 @@
 //  Override toString() for Box class.
 
 
-public class Code20 {
+public class ToStringOverRide {
     public static void main(String[] args) {
         newcls obj = new newcls("Sunit");
         System.out.println(obj);

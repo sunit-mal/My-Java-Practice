@@ -1,6 +1,6 @@
 //  Demonstrates getChars( ):
 
-public class Code14 {
+public class GetCharsMethod {
     public static void main(String[] args) {
         String a = "Sunit";
         char[] charecter = new char[10]; 

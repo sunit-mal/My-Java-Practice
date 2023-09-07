@@ -1,6 +1,6 @@
 //  Demonstrate indexOf() and lastIndexOf().
 
-public class Code15 {
+public class indexOfMethod {
     public static void main(String[] args) {
         String a = "Panchberia";
         

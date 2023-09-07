@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-public class Code6 {
+public class ListToVector {
     public static void main(String[] args) {
         List<Integer> li = new ArrayList<>();
         li.add(12);

@@ -1,6 +1,6 @@
 //  Write a JAVA program for computing sum of two integers and floats using abstract classes?
 
-public class Code2 {
+public class AbstractClassSumOperation {
     public static void main(String[] args) {
         ans obj = new ans();
         System.out.println(obj.Intsum(5, 19));

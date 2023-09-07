@@ -1,7 +1,7 @@
 //  Illustrate a  program that uses substring( ) to replace all instances of one substring with another      
 //  within a string.
 
-public class Code18 {
+public class UseSubString {
 
     public static void main(String[] args) {
         String S = "Laptop";

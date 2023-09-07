@@ -3,7 +3,7 @@ import java.util.Vector;
 
 // How to copy or clone a vector?
 
-public class Code5 {
+public class VectorCloneingInJava {
     public static void main(String[] args) {
         List<Integer> vector1 = new Vector<>();
         vector1.add(13);

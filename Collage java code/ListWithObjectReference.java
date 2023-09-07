@@ -11,7 +11,7 @@
 import java.util.List;
 import java.util.Vector;
 
-public class Code11 {
+public class ListWithObjectReference {
 
     public static void main(String[] args) {
         List<Book> list = new Vector<>();

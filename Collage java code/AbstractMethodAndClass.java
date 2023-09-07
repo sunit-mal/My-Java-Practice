@@ -1,5 +1,5 @@
 //  Using abstract methods and classes.
-public class  Code1{
+public class  AbstractMethodAndClass{
     public static void main(String[] args) {
        class2 obj = new class2();
        obj.display(); 

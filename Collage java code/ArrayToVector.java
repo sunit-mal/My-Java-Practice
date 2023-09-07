@@ -3,7 +3,7 @@
 import java.util.List;
 import java.util.Vector;
 
-public class Code8 {
+public class ArrayToVector {
     public static void main(String[] args) {
         int array[] = {1,42,2,43,11};
         List<Integer> vector = new Vector<>();

@@ -1,6 +1,6 @@
 //  Illustrate sample program that sorts an array of strings. The program uses compareTo( ) method.
 
-public class Code17 {
+public class CompareToMethod {
     public static void main(String[] args) {
         String ch[] = { "A", "C", "E", "B" };
         for (int i = 0; i < ch.length - 1; i++) {

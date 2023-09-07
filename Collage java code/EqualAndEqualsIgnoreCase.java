@@ -1,6 +1,6 @@
 //  Demonstrate equals() and equalsIgnoreCase().
 
-public class Code12 {
+public class EqualAndEqualsIgnoreCase {
     public static void main(String[] args) {
         String a = "Sunit";
         String b = "sunit";

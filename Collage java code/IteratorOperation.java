@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Vector;
 
 
-public class Code4 {
+public class IteratorOperation {
     public static void main(String[] args) {
         List<Integer> ve = new Vector<>();
         ve.add(12);

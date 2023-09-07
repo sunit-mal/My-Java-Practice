@@ -1,6 +1,6 @@
 //  Demonstrate equals() vs ==.
 
-public class Code13 {
+public class EqualMethodVsEqualOperation {
     public static void main(String[] args) {
         String a = "Sunit";
         String b = new String("Sunit");

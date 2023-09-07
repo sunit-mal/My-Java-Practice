@@ -2,7 +2,7 @@
 
 import java.util.LinkedList;
 
-public class Code10 {
+public class LinkedListOperation {
     public static void main(String[] args) {
         LinkedList<String> languages = new LinkedList<>();
         languages.add("Java");

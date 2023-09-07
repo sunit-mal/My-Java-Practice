@@ -1,6 +1,6 @@
 //  Implement the below diagram by using abstract class’s polymorphism and dynamic binding.
 
-public class Code3 {
+public class AbstractClassPolymorphism {
     public static void main(String[] args) {
         c3 obj = new c3();
         obj.f1();
