@@ -1,10 +1,23 @@
 public class ObjectClassOverride {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         one obj1 = new one("Sunit", 18);
         one obj2 = new one("Sunit", 16);
 
         System.out.println(obj1.equals(obj2));
         System.out.println(obj1.toString());
+
+        // Object Cloning
+        CloningClass ccobj = new CloningClass();
+        ccobj.Name = "Main Clone";
+        CloningClass ccobj2 = (CloningClass) ccobj.clone();
+
+        System.out.format("\nBefore Adding value in clone obj \n %s\t%s\n%s\t%s", ccobj.hashCode(), ccobj2.hashCode(),
+                ccobj.Name, ccobj2.Name);
+
+        ccobj2.Name = "Clone Object";
+        System.out.format("\nAfter Adding value in clone obj \n %s\t%s\n%s\t%s", ccobj.hashCode(), ccobj2.hashCode(),
+                ccobj.Name, ccobj2.Name);
+
     }
 }
 
@@ -44,11 +57,24 @@ class one {
         String result = this.name + " " + this.num;
         return result;
     }
+
+}
+
+class CloningClass implements Cloneable {
+    String Name;
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
 
 /*
  * Note:
- *      Here I am override equals and toString method from object class.
- *      with out those override equal method only check those two object are same or not its check object hashCode not the inner value
- *      and toString return hash Value not the contain value. By overriding I will change the working process of those 2 method.
+ * Here I am override equals and toString method from object class.
+ * with out those override equal method only check those two object are same or
+ * not its check object hashCode not the inner value
+ * and toString return hash Value not the contain value. By overriding I will
+ * change the working process of those 2 method.
+ * And In cloning in necessary to override clone method.
  */
