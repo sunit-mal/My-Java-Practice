@@ -19,7 +19,7 @@ public class CloningInJava {
 
         obj2.setValue("Change");
         System.out.println("\n\nAfter Insert value in Clone reference\n");
-        System.out.print(obj1.hashCode() + "\t" + obj2.hashCode());
+        System.out.print(obj1.hashCode() + "\t" + obj2.hashCode()+"\n");
 
         obj1.display();
         System.out.print("\t\t");
@@ -44,7 +44,7 @@ public class CloningInJava {
         obj4.setValue("Change");
 
         System.out.println("\n\nAfter Insert value in Clone reference\n");
-        System.out.print(obj3.hashCode() + "\t" + obj4.hashCode());
+        System.out.print(obj3.hashCode() + "\t" + obj4.hashCode()+"\n");
 
         obj3.display();
         System.out.print("\t\t");
