@@ -4,7 +4,7 @@
 // String to Find
 // String to replace
 // Number of times the Replace has to be done.
-// E.G for the given inputs - “ababaa”, “ba”, “cb”, 2
+// E.G for the given inputs - “a ba ba a”, “ba”, “cb”, 2
 // Ababaa
 // After 1st replacement, the string will be -  acbcba
 // After 2nd replacement, the string will be -  acbccb
