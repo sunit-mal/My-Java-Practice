@@ -1,7 +1,6 @@
-public class zzz2 {
+// import java.util.LinkedHashSet;
+// import java.util.Scanner;
 
-    public static void main(String[] args) {
-        System.out.println(java.time.LocalDate.now());
-        System.out.println("Hello World");
-    }
-}
+// public class zzz2 {
+
+// }
