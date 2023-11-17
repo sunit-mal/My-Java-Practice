@@ -1,6 +1,6 @@
 /*
  * Map Basically use to store data with a unique key.
- * Syntex: Map<KeyDataType , ValueDataType> refarence = new MapType<>();
+ * Syntax: Map<KeyDataType , ValueDataType> reference = new MapType<>();
  */
 
 import java.util.HashMap;
