@@ -1,0 +1,7 @@
+*.class
+*.ini
+
+.vscode/
+Collage java code/
+lib/
+TicTacToeGame/
